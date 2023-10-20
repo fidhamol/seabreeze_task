@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="top-nav-strip"></div>
+        <div class="main-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="nav-wrap">
+                            <div class="brand-col">
+                                <a class="brand" href="index.html">
+                                    <img src="images/logo.svg" alt="Sea Breeze">
+                                </a>
+                            </div>
+                            <div class="menu-col">
+                                <div class="top-item">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-globe"></i>United Arab Emirates
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-lens"></i>Search
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="middle-item">
+
+                                    <a class="btn btn-secondary btn-lg i-left" style="background-color: #F58220;"
+                                        href=""><i class="fa-solid fa-phone-volume p-2" style="color: #f8f6f4;"></i>800
+                                        2733</a>
+                                    <button class="hamburger hamburger--collapse" type="button">
+                                        <span class="hamburger-box">
+                                            <span class=""><i class="fa-solid fa-bars"></i></span>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="lower-item">
+                                    <ul>
+
+                                        <li><a href="">Track</a></li>
+
+                                        <li><a href="">About Us</a></li>
+
+                                        <li><a href="">Divisions</a></li>
+
+                                        <li><a href="">Services</a></li>
+
+                                        <li><a href="">Features</a></li>
+
+                                        <li><a href="">News</a></li>
+                                        <li><a href="">Contact Us</a></li>
+
+                                        <li class="dropdown">
+                                            <a href="#">Extras</a>
+                                            <i class="icon-chevron-down"></i>
+                                            <ul>
+                                                <li>
+                                                    <a href="volume-cbm-calculator.html">Volume CBM
+                                                        Calculator</a>
+                                                </li>
+                                                <li>
+                                                    <a href="rate-calculator.html">Rate
+                                                        Calculator</a>
+                                                </li>
+                                                <li>
+                                                    <a href="pickup.html">Pick up</a>
+                                                </li>
+                                                <li>
+                                                    <a href="gallery.html">Gallery</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="overlay">
+                                        <button class="hamburger hamburger--collapse is-active" type="button">
+                                            <span class="hamburger-box">
+                                                <span class="hamburger-inner"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner-content p-5 mt-4">
+            <h1 class="text-light"><b>Track Your Shipment</b></h1><br>
+            <div class="input-group mb-4">
+                <input type="text" class="form-control" placeholder="Enter your tracking number"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn p-2" type="submit" id="button-addon2">Track</button>
+            </div>
+        </div>
+        <div class="card text-center mb-4">
+            <div class="row p-2">
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card-body">
+                        <!-- <i class="fa-solid fa-calendar-days fa-2xl" style="color: #F58220;"></i> -->
+                        <img src="images/i1.png" alt="">
+                        <h5 class="card-title mt-3">Ship Now</h5>
+                        <p class="card-text">Choose the right service Shedule Pickup</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card-body">
+                        <img src="images/i2.png" alt="">
+                        <h5 class="card-title mt-3">Know Rate</h5>
+                        <p class="card-text">Get estimate and compare</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="card-body">
+                        <img src="images/i3.png" alt="">
+                        <h5 class="card-title mt-3">Talk to Expert</h5>
+                        <p class="card-text">Click Icon to call Toll Free</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-two">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 text-center">
+                    <h1 class="h1-orange"><b>Cargo Services</b></h1>
+                </div>
+            </div>
+            <div class="card-cargo mt-5">
+                <div class="row text-center">
+                    <div class="col-sm-6 col-lg-3 p-4">
+                        <img src="images/i4.png" alt="">
+                        <h5 class="card-title mt-3"><b>Express Cargo </b></h5>
+                        <p class="card-text">Express delivery at
+                            your door step</p>
+                    </div>
+                    <div id="cargo" class="col-sm-6 col-lg-3 p-4">
+                        <img src="images/i5.png" alt="">
+                        <h5 class="card-title mt-3"><b> Budget Cargo</b></h5>
+                        <p class="card-text">Express delivery at
+                            your door step</p>
+                    </div>
+                    <div id="cargo" class="col-sm-6 col-lg-3 p-4">
+                        <img src="images/i6.png" alt="">
+                        <span class="icon-budget-cargo"></span>
+
+                        <h5 class="card-title mt-3"><b>Budget Plus Cargo </b></h5>
+                        <p class="card-text">Express delivery at
+                            your door step</p>
+                    </div>
+                    <div id="cargo" class="col-sm-6 col-lg-3 p-4">
+                        <img src="images/i7.png" alt="">
+                        <h5 class="card-title mt-3"><b>Project Logistics </b></h5>
+                        <p class="card-text">Express delivery at
+                            your door step</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-12 text-center">
+                    <h1 class="h1-orange mb-4"><span><img src="images/i8.png" alt=""></span><b>Logistics Services</b>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card"
+                        style="border-radius: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <img src="images/packing.jpeg" class="card-img-top" alt="..."
+                            style="border-radius: 15px 15px 0px 0px;">
+                        <div class="card-body text-center">
+                            <h6 class="card-title"><b>Packing & Shipping Service</b></h6>
+                            <p class="card-text">We are full-ﬂedged freight forwarding com-pany, we have an in-house
+                                arrangement of packing and shipping of the cargos by our highly skilled packers and
+                                movers.</p>
+                            <button type="button" class="btn p-1"
+                                style="border: 1px solid #f37e12; color: #f37e12; background-color: transparent;"
+                                onmouseover="this.style.backgroundColor = '#f37e12'; this.style.color = 'white';"
+                                onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#f37e12';">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card"
+                        style="border-radius: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <img src="images/insurance.jpeg" class="card-img-top" alt="..."
+                            style="border-radius: 15px 15px 0px 0px;">
+                        <div class="card-body text-center">
+                            <h6 class="card-title"><b>Insurance Service</b></h6>
+                            <p class="card-text">We are full-ﬂedged freight forwarding com-
+                                pany, we have an in-house arrangement of
+                                packing and shipping of the cargos by our
+                                highly skilled packers and movers.</p>
+                            <button type="button" class="btn p-1"
+                                style="border: 1px solid #f37e12; color: #f37e12; background-color: transparent;"
+                                onmouseover="this.style.backgroundColor = '#f37e12'; this.style.color = 'white';"
+                                onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#f37e12';">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card"
+                        style="border-radius: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <img src="images/documents-services.jpeg" class="card-img-top" alt="..."
+                            style="border-radius: 15px 15px 0px 0px;">
+                        <div class="card-body text-center">
+                            <h6 class="card-title"><b>Documentation Service</b></h6>
+                            <p class="card-text">We are full-ﬂedged freight forwarding com-
+                                pany, we have an in-house arrangement of
+                                packing and shipping of the cargos by our
+                                highly skilled packers and movers</p>
+                            <button type="button" class="btn p-1"
+                                style="border: 1px solid #f37e12; color: #f37e12; background-color: transparent;"
+                                onmouseover="this.style.backgroundColor = '#f37e12'; this.style.color = 'white';"
+                                onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#f37e12';">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card"
+                        style="border-radius: 15px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                        <img src="images/port-01.jpg" 1736 × 1036 class="card-img-top" alt="..."
+                            style="border-radius: 15px 15px 0px 0px;">
+                        <div class="card-body text-center">
+                            <h6 class="card-title"><b>Customs Clearance</b></h6>
+                            <p class="card-text">We are full-ﬂedged freight forwarding com-
+                                pany, we have an in-house arrangement of
+                                packing and shipping of the cargos by our
+                                highly skilled packers and movers.</p>
+                            <button type="button" class="btn p-1"
+                                style="border: 1px solid #f37e12; color: #f37e12; background-color: transparent;"
+                                onmouseover="this.style.backgroundColor = '#f37e12'; this.style.color = 'white';"
+                                onmouseout="this.style.backgroundColor = 'transparent'; this.style.color = '#f37e12';">Secondary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </div>
+
+    <section class="mt-3">
+        <div class="container">
+            <div class="parallax-bg"
+                data-bg="https://www.seabreezecouriers.com/frontend/uploads/home/ship-across-the-world/ship-across-the-world.jpg"
+                data-webp="https://www.seabreezecouriers.com/frontend/uploads/home/ship-across-the-world/ship-across-the-world.webp"
+                data-mobilebg="https://www.seabreezecouriers.com/frontend/uploads/home/ship-across-the-world/ship-across-the-world-mobile.webp"
+                data-mobilewebp="https://www.seabreezecouriers.com/frontend/uploads/home/ship-across-the-world/ship-across-the-world-mobile.webp">
+                <div class="content text-center text-light">
+                    <h1><b> Have Something to ship across the world?</b></h1>
+                    <p>We deliver an amazing service with our extensive global air freight experience.</p>
+                    <a href="blog.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section counter mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-block">
+                        <div class="count">50</div>
+
+                        <div class="text">Offices Worldwide</div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-block">
+                        <div class="count">450</div>
+
+                        <div class="text">Smart Staffs</div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-block">
+                        <div class="count">30</div>
+
+                        <div class="text">Years Tradition</div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="counter-block">
+                        <div class="count">5 <i class="icon-star-fill"></i></div>
+
+                        <div class="text">Customer Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <section class="About Us mt-3">
+        <div class="container">
+            <h1 class="h1-orange text-center"><span><img src="images/i9.png" alt=""></span><b>About Us</b></h1><br>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <img class="about-img img-fluid" src="images/seabreeze salesman-01.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <h2 class="h1-orange"><b>Lorem ipsum dolor sit</b></h2>
+                    <p>Seabreeze Couriers is one of the leading courier distribution companies in GCC and
+                        India covering both domestic and international services. Incorporated in the year 1998,
+                        Seabreeze is in its 13th year of operations in India and UAE. Sea breeze Couriers takes
+                        the credit of pioneering the franchisee concept for the courier industry between India
+                        and UAE, and today has the largest courier network serving retail and SME customers in
+                        India and GCC. It has a large delivery network covering all the major locations in India
+                        especially Kerala where they assure a express delivery time of maximum four days in
+                        delivering your gift to your beloved ones.</p>
+                    <p>The team at SeaBreeeze Couriers comprises of experienced people in the cargo and
+                        courier industry and has wide experience in working across GCC and India.Its efficient
+                        network spans over different destinations supported by its own offices in U.A.E [Bur
+                        Dubai,Deira,Al Qouz, Sharjah, Ajman, Abu Dhabi,Musaffah] K.S.A[Jeddah, Damman] and
+                        as well as associate offices in all the important Indian destinations.</p>
+
+                    <!-- <p>This is some initial content.</p> -->
+                    <div class="hidden" id="moreContent">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus esse voluptatum
+                            ducimus unde autem veritatis id reprehenderit non quidem suscipit, nemo assumenda sed
+                            dolores tenetur quos dolorum inventore deserunt.</p>
+                    </div>
+                    <button id="readMoreBtn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="Milestones lg-mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="h1-orange text-center"><span><img src="images/i10.png" alt=""></span><b>Milestones</b>
+                    </h1><br>
+                </div>
+                <div class="col-md-12">
+                    <div class="milestone-wrap">
+                        <div class="milestone-col">
+                            <div class="milestone">
+                                <span class="milestone-border">
+                                    <span class="bullet"></span>
+                                    <span class="bullet"></span>
+                                </span>
+                                <div class="milestone-inner">
+                                    <div class="icon-holder">
+                                        <i class="fa fa-lightbulb" style="color: #f37e12;"></i>
+                                    </div>
+                                    <div class="content-holder">
+                                        <h3>1995</h3>
+                                        <p>sit amet, consectetur
+                                            adipiscing elit, sed do
+                                            eiusmod tempor incidi-
+                                            dunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="milestone-col">
+                            <div class="milestone">
+                                <span class="milestone-border">
+                                    <span class="bullet"></span>
+                                    <span class="bullet"></span>
+                                </span>
+                                <div class="milestone-inner">
+                                    <div class="icon-holder">
+                                        <i class="fa-solid fa-building"></i>
+                                    </div>
+                                    <div class="content-holder">
+                                        <h3>2005</h3>
+                                        <p>Lorem ipsum dolor sit
+                                            amet, consectetur adipi-
+                                            scing elit, sed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="milestone-col">
+                            <div class="milestone">
+                                <span class="milestone-border">
+                                    <span class="bullet"></span>
+                                    <span class="bullet"></span>
+                                </span>
+                                <div class="milestone-inner">
+                                    <div class="icon-holder">
+                                        <i class="fa-solid fa-award" style="color: #f37e12;"></i>
+                                    </div>
+                                    <div class="content-holder">
+                                        <h3>2010</h3>
+                                        <p>Lorem ipsum dolor sit
+                                            amet, consectetur adipi-
+                                            scing elit, sed do.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="milestone-col">
+                            <div class="milestone">
+                                <span class="milestone-border">
+                                    <span class="bullet"></span>
+                                    <span class="bullet"></span>
+                                </span>
+                                <div class="milestone-inner">
+                                    <div class="icon-holder">
+                                        <i class="fa-regular fa-font-awesome" style="color: #f37e12;"></i>
+                                    </div>
+                                    <div class="content-holder">
+                                        <h3>2015</h3>
+                                        <p>Lorem ipsum dolor sit
+                                            amet, consectetur adipi-
+                                            scing elit, sed do eiusmod
+                                            tempor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="milestone-col">
+                            <div class="milestone">
+                                <span class="milestone-border">
+                                    <span class="bullet"></span>
+                                    <span class="bullet"></span>
+                                </span>
+                                <div class="milestone-inner">
+                                    <div class="icon-holder">
+                                        <i class="fa-solid fa-rocket" style="color: #f37e12;"></i>
+                                    </div>
+                                    <div class="content-holder">
+                                        <h3>2020</h3>
+                                        <p>Lorem ipsum dolor sit
+                                            amet, consectetur adipi-
+                                            scing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="OurPresence mt-4">
+        <div class="container-fluid p-2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="h1-orange text-center"><span><img src="images/i11.png" alt=""></span><b>Our Presence</b>
+                    </h1>
+                </div>
+            </div>
+            <br>
+            <div class="filter-buttons d-flex justify-content-center">
+                <button class="filter-button active" onclick="filterData('category1')">INDIA</button>
+                <button class="filter-button" onclick="filterData('category2')">USA</button>
+                <button class="filter-button" onclick="filterData('category3')">KSA</button>
+            </div><br>
+            <div class="elements mt-3">
+                <!-- Data elements -->
+                <div class="data-element category1" style="display: block;">
+                    <div class="container-fluid">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                                    marginwidth="0"
+                                    src="https://maps.google.com/maps?width=670&amp;height=400&amp;hl=en&amp;q=india&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                </iframe>
+                                <a href="https://connectionsgame.org/">Connections Puzzle</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="data-element category2" style="display: none;">
+                    <div class="container-fluid">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no"
+                                    marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?width=670&amp;height=400&amp;hl=en&amp;q=usa&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                    href="https://connectionsgame.org/">Connections Puzzle</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="data-element category3" style="display: none;">
+                    <div class="container-fluid">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no"
+                                    marginheight="0" marginwidth="0"
+                                    src="https://maps.google.com/maps?width=670&amp;height=400&amp;hl=en&amp;q=ksa&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                    href="https://connectionsgame.org/">Connections Puzzle</a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="our-contacts">
+        <div class="container p-2">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title text-center color-white">
+                        <h1 class="h1-orange text-center"><b>Our Contacts</b></h1>
+                    </div>
+
+                    <div class="nav nav-tabs country-tab" id="nav-tab"><button class="tab-switch active"
+                            data-bs-target="#nav-uae" data-bs-toggle="tab" id="nav-uae-tab" role="tab"
+                            type="button">UAE</button><button class="tab-switch" data-bs-target="#nav-ksa"
+                            data-bs-toggle="tab" id="nav-ksa-tab" role="tab" type="button">KSA</button><button
+                            class="tab-switch" data-bs-target="#nav-philippines" data-bs-toggle="tab"
+                            id="nav-philippines-tab" role="tab" type="button">PHILIPPINES</button><button
+                            class="tab-switch" data-bs-target="#nav-india" data-bs-toggle="tab" id="nav-india-tab"
+                            role="tab" type="button">INDIA</button></div>
+
+                    <div class="tab-content country-tab-content" id="nav-tabContent">
+                        <div aria-labelledby="nav-uae-tab" class="tab-pane fade show active" id="nav-uae"
+                            role="tabpanel"><button class="tab-switch">UAE</button>
+
+                            <div class="tab-card">
+                                <div class="row">
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>SDEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-ksa" role="tabpanel">
+                            <button class="tab-switch">KSA</button>
+
+                            <div class="tab-card">
+                                <div class="row">
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span><a href="">+966 12 7341 082</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div aria-labelledby="nav-philippines-tab" class="tab-pane fade" id="nav-philippines"
+                            role="tabpanel"><button class="tab-switch">PHILIPPINES</button>
+
+                            <div class="tab-card">
+                                <div class="row">
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div aria-labelledby="nav-india-tab" class="tab-pane fade" id="nav-india" role="tabpanel">
+                            <button class="tab-switch">DEIRA</button>
+
+                            <div class="tab-card">
+                                <div class="row">
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="8">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-col">
+                                        <div class="tab-card-item">
+                                            <h6>DEIRA</h6>
+                                            <span>Nakheel Center, Deira</span> <a href="">+971 56 899 3321</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay"></div>
+    </section>
+
+    <br><br>
+
+    <section class="particles-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1 class="h1-orange"><b>Latest Blog</b></h1>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-1">
+                    <div class="news-card">
+                        <div class="card-image">
+                            <picture>
+                                <img src="images/blogs image/B777_Cargo.jpeg" alt="Sea Breeze">
+                            </picture>
+                        </div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh
+                                euismod tincidunt ut laoreet dolore magna
+                                aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                        <div class="card-action">
+                            <p class="btn btn-link">Read More </p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="news-card">
+                        <div class="card-image">
+                            <picture>
+                                <img src="images/blogs image/safe-delivery-illustration_119121-11.jpeg"
+                                    alt="Sea Breeze">
+                            </picture>
+                        </div>
+                        <div class="card-content">
+                            <h4>Lorem ipsum Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer
+                                adipiscing elit, sed diam nonummy nibh
+                                euismod tincidunt ut laoreet dolore magna
+                                aliquam erat volutpat. Ut wisi</p>
+                        </div>
+                        <div class="card-action">
+                            <p class="btn btn-link">Read More </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-8">
+                    <div class="quick-enquiry">
+                        <h2>QUICK ENQUIRY</h2>
+                        <p>Enter your details below.</p>
+                        <form id="contact-form">
+                            <div class="form-wrap">
+                                <div class="row p-2">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="firstName" class="form-label">First Name<em>*</em></label>
+                                            <input type="text" class="form-control" name="fname" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="firstName" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control" name="lname" id="lname">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="email" class="form-label">Email Address</label>
+                                            <input type="text" class="form-control" name="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="city" class="form-label">City <em>*</em></label>
+                                            <input type="text" class="form-control" name="city" id="city"
+                                                maxlength="100">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="stateEmirate" class="form-label">State /
+                                                Emirate<em>*</em></label>
+                                            <input type="text" class="form-control" name="state" id="stateEmirate"
+                                                maxlength="100">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="phoneNumber" class="form-label">Phone Number<em>*</em></label>
+                                            <input type="text" class="form-control" id="phone" name="phone"
+                                                maxlength="14" onkeypress="return checkIsNumber(event)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="enquiryDetails" class="form-label">Share your enquiry details
+                                                here</label>
+                                            <textarea class="form-control p-5" id="enquiryDetails"
+                                                name="enquiry_details" maxlength="250"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary g-recaptcha"
+                                            data-sitekey="6Lc3tvEfAAAAALRF0v-k11iRGd21qLKAHHWzluDN"
+                                            data-callback='onSubmit'>Send Now </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="particles-js"></div>
+    </section>
+
+    <footer style="background-color:rgb(235 235 235);">
+        <div class="container p-4 mb-4">
+            <br>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 sm-text-center">
+                    <h6><b>Breeze Holdings Group</b></h6>
+                    <ul>
+                        <li>Terms & Conditions</li>
+                        <li>Privacy Policy</li>
+                        <li>Disclaimer</li>
+                        <li>Copyrights</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <h6><b>Quick Links</b></h6>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Logistic Solutions</li>
+                        <li>Cargo Services</li>
+                        <li>Become a member</li>
+                        <li>Track Shipment</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <h6><b>Quick Contact</b></h6>
+                    <ul>
+                        <li>P.O.Box : 241866 Bur Dubai, UAE</li>
+                        <li>Phone : +971 4 3537967</li>
+                        <li>Email : info@seabreezecourier.com</li>
+                        <li>UAE(TOLL FREE) - 800 2733</li>
+                        <li>KSA(TOLL FREE) - 800 244 2999</li>
+                        <li>INDIA(TEL) - 0483 2712363</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <h6 class="p-1"><b>Follow us</b></h6>
+                    <ul>
+                        <li class="mt-3">
+                            <a href=""><i class="fa-brands fa-facebook fa-2xl p-1" style="color: #727272;"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram fa-2xl p-1"
+                                    style="color: #727272;"></i></a>
+                            <a href=""><i class="fa-brands fa-square-x-twitter fa-2xl p-1"
+                                    style="color: #727272;"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest fa-2xl p-1" style="color: #727272;"></i></a>
+                            <a href=""><i class="fa-brands fa-tiktok fa-2xl p-1" style="color: #727272;"></i></a>
+                            <a href=""><i class="fa-brands fa-square-youtube fa-2xl p-1"
+                                    style="color: #727272;"></i></a>
+                        </li>
+                        <li class="mt-3 p-1">Subscribe to our newsletter</li>
+                        <li>
+                            <div class="input-group mb-4">
+                                <input type="text" class="form-control" placeholder="Enter your email id"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn p-2" type="submit" id="button-addon2"
+                                    style="background-color: #F28020;">SUBSCRIBE</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cpyrgt" style="background-color:#00B8EF;">
+            <p class="text-center p-2">2021 © Seabreeze Air Cargo LLC. All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="scrollToTopButton" class="scroll-to-top-button"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+
+    <script>
+        const moreContent = document.getElementById("moreContent");
+        const readMoreBtn = document.getElementById("readMoreBtn");
+
+        readMoreBtn.addEventListener("click", function () {
+            if (moreContent.style.display === "none" || moreContent.style.display === "") {
+                moreContent.style.display = "block";
+                readMoreBtn.textContent = "Read Less";
+            } else {
+                moreContent.style.display = "none";
+                readMoreBtn.textContent = "Read More";
+            }
+        });
+    </script>
+
+    <script>
+        // Function to filter data based on category
+        function filterData(category) {
+            const dataElements = document.querySelectorAll('.data-element');
+            const filterButtons = document.querySelectorAll('.filter-button');
+
+            dataElements.forEach((element) => {
+                if (element.classList.contains(category)) {
+                    element.style.display = 'block';
+                } else {
+                    element.style.display = 'none';
+                }
+            });
+
+            // Mark the active button as "active"
+            filterButtons.forEach((button) => {
+                button.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+
+
+    <script>
+        // JavaScript to show/hide the scroll-to-top button
+        window.addEventListener('scroll', function () {
+            var scrollToTopButton = document.getElementById('scrollToTopButton');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
+
+        // JavaScript to scroll to the top when the button is clicked
+        document.getElementById('scrollToTopButton').addEventListener('click', function () {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        });
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
